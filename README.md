@@ -35,7 +35,7 @@ tic -sx st.info
 See the man page for additional details.
 
 ### Colors
-The best colorscheme, [Gruvbox!](https://github.com/morhetz/gruvbox)
+The best colorscheme, [gruvbox!](https://github.com/morhetz/gruvbox)
 
 ## Notes on Emojis and Special Characters
 If st crashes when viewing emojis, install [libxft-bgra](https://aur.archlinux.org/packages/libxft-bgra/) from the AUR.
