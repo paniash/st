@@ -13,6 +13,7 @@ In order to build st you need the Xlib header files.
 - Anysize - Terminal programs do not scale very well with the terminal emulator itself. This patch takes care of it.
 - Clipboard - Copy and paste within st or to/from external programs like a web browser.
 - Newterm - Opens a new instance of st with the current working directory.
+- Boxdraw - Render line drawings even better (instead of badly pixelated ones from the prehistoric era).
 
 ## Installation
 Edit config.mk to match your local setup (st is installed into
