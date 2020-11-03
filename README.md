@@ -7,6 +7,7 @@ In order to build st you need the Xlib header files.
 ## Features
 + **zoom/change font size**: same bindings as above, but holding down shift as well. `alt-shift-home` returns to default
 + **copy text** with `alt-c`, **paste** is `alt-v` or `shift-insert`
+- Updated to version 0.8.4
 
 ## Patches
 - Alpha - Provides transparency to st (requires a compositor like picom)
