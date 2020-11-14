@@ -31,7 +31,7 @@ sudo make clean install
 ```
 
 #### Installing fonts
-Clone the repo containing the patched fonts and move the `Hack-alt` folder to `~/.local/share/fonts`. For newbs, enter the follwing commands:
+Clone the repo containing the patched fonts and move the `Hack-alt` folder to `~/.local/share/fonts`. For newbs, enter the following commands:
 
 ```sh
 git clone https://github.com/paniash/dotfiles.git
