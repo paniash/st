@@ -16,10 +16,6 @@ In order to build st you need the Xlib header files.
 - Newterm - Opens a new instance of st with the current working directory.
 - Boxdraw - Render line drawings even better (instead of badly pixelated ones from the prehistoric era).
 
-### Font
-This build uses a patched version of the [Hack Typeface](https://sourcefoundry.org/hack/).
-You can find this patched version in my dotfiles repo [here](https://github.com/paniash/dotfiles/tree/master/.local/share/fonts/Hack-alt).
-
 ## Installation
 Edit config.mk to match your local setup (st is installed into
 the `/usr/local` namespace by default).
@@ -29,23 +25,6 @@ git clone https://github.com/paniash/st.git
 cd st
 sudo make clean install
 ```
-
-#### Installing fonts
-Clone the repo containing the patched fonts and move the `Hack-alt` folder to `~/.local/share/fonts`. For newbs, enter the following commands:
-
-```sh
-git clone https://github.com/paniash/dotfiles.git
-cd dotfiles/
-mv .local/share/fonts/Hack-alt ~/.local/share/fonts/
-```
-
-To verify that the font has been installed correctly, ensure that the following command spits out the font family:
-
-```sh
-fc-list | grep Hack
-```
-
-If it spits out nothing, then please ensure that you've correctly followed the above installation steps.
 
 ## Running st
 If you did not install st with `make clean install`, you must compile
