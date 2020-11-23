@@ -15,7 +15,6 @@ In order to build st you need the Xlib header files.
 - Clipboard - Copy and paste within st or to/from external programs like a web browser.
 - Newterm - Opens a new instance of st with the current working directory.
 - Boxdraw - Render line drawings even better (instead of badly pixelated ones from the prehistoric era).
-- Blinking cursor - Adds an aesthetic blinking cursor to the terminal.
 
 ## Installation
 Edit config.mk to match your local setup (st is installed into
