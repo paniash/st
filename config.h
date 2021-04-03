@@ -6,7 +6,9 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 /* static char *font = "Terminus (TTF):style=Medium:pixelsize=18:antialias=true:autohint=true"; */
-static char *font = "Inconsolata Nerd Font:style=Regular:pixelsize=16:antialias=true:autohint=true";
+/* static char *font = "Hack:style=Regular:pixelsize=15:antialias=true:autohint=true"; */
+/* static char *font = "Inconsolata Nerd Font:style=Regular:pixelsize=18:antialias=true:autohint=true"; */
+static char *font = "DejaVu Sans Mono:style=Book:pixelsize=15:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
